@@ -1,0 +1,21 @@
+
+.container {
+    background-color: blue;
+    padding: 10px;
+    color: black;
+    /* 格線排版   */
+    display: grid;
+    /*  columns  */
+    grid-template-columns: auto auto auto;
+    /*  row height  */
+     grid-template-rows: 80px  200px 50px;
+     /*  gap  */
+     grid-gap: 40px 60px;  
+  }
+  
+  .container > div{
+     background-color: yellow;
+    padding: 20px 0;
+    font-size: 30px;
+    text-align: center;  
+  }

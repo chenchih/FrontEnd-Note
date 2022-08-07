@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightgray;
+    text-align: center;
+    
+    
+}
+body .grid-item{
+    border-radius: 40px;
+    font-size: 5rem;
+    background-color: blue;
+    }
+
+.grid-container{
+    width: 90%;
+    margin: auto;
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 400px 400px 200px;
+    grid-gap: 20px;;
+
+
+} 
+
+
+header{
+grid-column: 1/5;
+grid-area: h;
+
+}
+main{
+    grid-column: 1/4;
+    grid-row: 2/4;
+  
+
+}
+
+aside{
+  
+}
+
+section{
+  
+}
+
+footer{
+    grid-column: 1 /5;
+  
+}
