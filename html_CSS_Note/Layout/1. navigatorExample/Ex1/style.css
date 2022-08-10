@@ -1,0 +1,16 @@
+.outer{
+  border: solid 1px black;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+}
+.inner{
+ border: solid 1px black;
+ display: block;
+ padding: 10px;
+ padding-left: 30px;
+ padding-right: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+}

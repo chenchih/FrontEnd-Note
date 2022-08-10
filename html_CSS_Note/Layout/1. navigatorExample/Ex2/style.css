@@ -1,0 +1,9 @@
+li {
+  display: inline-block;  
+  letter-spacing: 2px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: green;
+  border-bottom: solid 7px black;
+}

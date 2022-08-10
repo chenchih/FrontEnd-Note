@@ -1,0 +1,9 @@
+ li {
+      display: inline-block;
+      border: solid 1px black;  /* 同一行*/
+      border-radius:5px;
+      padding: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+      letter-spacing: 2px;
+    }
